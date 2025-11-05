@@ -20,7 +20,7 @@ nav {
    justify-content: space-around;
    align-items: center;
    background: white;
-
+   box-shadow: 0 0 10px black;
 }
 
 nav #logo {
@@ -45,6 +45,8 @@ nav ul li {
 
 nav ul a {
    margin: 10px;
+   color: black;
+
 }
 
 nav a {
@@ -72,6 +74,8 @@ nav #avatar img {
    width: 60px;
    border-radius: 100%;
    object-fit: cover;
+   border: 2px solid black;
+
 }
 
 main {
@@ -100,26 +104,35 @@ main .card-container {
    flex-direction: column;
    justify-content: center;
    margin: 10px;
+   background: white;
+   border-radius: 10px;
+   overflow: hidden;
 }
 
 main .card-container img {
    width: 100%;
-
+   /* border-radius: 10px; */
 }
 
 main .card-container .sneaker-info {
    display: flex;
    justify-content: center;
    flex-direction: column;
-   padding: 5%;
+   padding: 12px;
 }
+
 
 main .card-container .sneaker-info .sneaker-title-price {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
+   margin-bottom: 10px;
 
+}
+
+main .card-container .sneaker-info .sneaker-title-price h3 {
+   color: blueviolet;
 }
 
 main .card-container .button {
@@ -129,11 +142,12 @@ main .card-container .button {
    background: blueviolet;
    border-radius: 8px;
    padding: 8px 16px;
+   text-align: center;
+   margin: 20px 0 5px 0;
 }
 
 footer {
    display: flex;
    justify-content: center;
    margin: 100px 50px;
-
 }
