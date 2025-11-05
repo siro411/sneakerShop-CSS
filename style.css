@@ -15,6 +15,15 @@ nav {
 
 }
 
+nav #logo {
+   display: flex;
+   flex-direction: row;
+}
+
+nav #logo img {
+   padding: 0 10px;
+}
+
 nav ul {
    display: flex;
    flex-direction: row;
