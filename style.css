@@ -1,6 +1,120 @@
 /* importation de la police 'Poppins' de Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap');
 
-html, body{
+html,
+body {
    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+   display: flex;
+   height: 110px;
+   width: 100%;
+   justify-content: space-around;
+   align-items: center;
+
+}
+
+nav ul {
+   display: flex;
+   flex-direction: row;
+
+}
+
+nav ul li {
+   list-style-type: none;
+   margin: 20px;
+}
+
+nav ul a {
+   margin: 10px;
+}
+
+nav a {
+   text-decoration: none;
+}
+
+nav #avatar {
+   display: flex;
+   align-items: center;
+}
+
+nav #avatar a {
+   text-decoration: none;
+   background: blueviolet;
+   border: 2px solid blueviolet;
+   color: white;
+   margin: 20px;
+   border-radius: 8px;
+   padding: 8px 16px;
+
+}
+
+nav #avatar img {
+   height: 60px;
+   width: 60px;
+   border-radius: 100%;
+   object-fit: cover;
+}
+
+main {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin: 0 100px;
+}
+
+main h1 {
+   display: flex;
+   justify-content: center;
+}
+
+main .container {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+main .card-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 10px;
+}
+
+main .card-container img {
+   width: 100%;
+
+}
+
+main .card-container .sneaker-info {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding: 5%;
+}
+
+main .card-container .sneaker-info .sneaker-title-price {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+main .card-container .button {
+   text-decoration: none;
+   border: 2px solid blueviolet;
+   color: white;
+   background: blueviolet;
+   border-radius: 8px;
+   padding: 8px 16px;
+   align-items: center;
+}
+
+footer {
+   display: flex;
+   justify-content: center;
+   margin: 100px 50px;
 }
